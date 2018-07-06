@@ -1,0 +1,19 @@
+﻿<Window x:Class="CrazyKTV_WCF_Demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CrazyKTV_WCF_Demo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="768" Width="1024" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="503" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="996"/>
+        <Button x:Name="Button1" Content="查詢合唱歌曲 (前10筆)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,538,0,0" Click="Button1_Click" FontSize="24" BorderThickness="1" Width="400" Height="40"/>
+        <Button x:Name="Button2" Content="查詢「張學友」歌曲 (前10筆)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,595,0,0" Click="Button2_Click" FontSize="24" BorderThickness="1" Width="400" Height="40"/>
+        <Button x:Name="Button3" Content="查詢歌名含有「愛情」歌曲 (前10筆)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,656,0,0" Click="Button3_Click" FontSize="24" BorderThickness="1" Width="400" Height="40"/>
+        <Button x:Name="Button4" Content="查詢女歌星 (前10筆)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="469,538,0,0" Click="Button4_Click" FontSize="24" BorderThickness="1" Width="400" Height="40"/>
+        <Button x:Name="Button5" Content="點歌功能 (切歌)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="469,595,0,0" Click="Button5_Click" FontSize="24" BorderThickness="1" Width="400" Height="40"/>
+        <Button x:Name="Button6" Content="播放控制 (靜音)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="469,656,0,0" Click="Button6_Click" FontSize="24" BorderThickness="1" Width="400" Height="40"/>
+
+    </Grid>
+</Window>

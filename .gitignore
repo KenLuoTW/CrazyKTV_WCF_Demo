@@ -1,0 +1,7 @@
+﻿################################################################################
+# 這個 .gitignore 檔案由 Microsoft(R) Visual Studio 自動建立。
+################################################################################
+
+/CrazyKTV_WCF_Demo/bin/Debug
+/.vs/CrazyKTV_WCF/v15/Server/sqlite3
+/CrazyKTV_WCF_Demo/obj/Debug
